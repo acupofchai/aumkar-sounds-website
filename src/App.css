@@ -84,7 +84,7 @@ body {
 
 .about-image {
   display: flex;
-  width: 25%;  /* Adjust size as needed */
+  width: 40%;
   height: auto;
   border-radius: 10px;
   flex-shrink: 0;

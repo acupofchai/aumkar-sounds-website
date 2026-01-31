@@ -27,6 +27,7 @@ function Services() {
   return( <div>
     <section className="header">
         <h1>View our available equipment</h1>
+        <h2>Speakers, mixers, mics, and mic stands</h2>
       </section>
    <div className="gallery-grid">
         {services.map((service, index) => (
