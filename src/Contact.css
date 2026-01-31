@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Host+Grotesk:ital,wght@0,600;1,600&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Slabo+13px&display=swap');
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;  /* centers it */
+  background: black;
+  padding: 3rem;  /* More padding inside */
+  transform: scale(1.2);  /* Makes everything 20% bigger */
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 1.5rem;  /* Increase padding */
+  font-family: 'Host Grotesk', sans-serif;
+  width: 80%;
+}
+
+.form-group {
+  margin-bottom: 0.75rem;  /* Space between each form field */
+}
+
+.form-group label {
+  margin-bottom: 1rem;  /* Space between label and input */
+  display: block;
+}

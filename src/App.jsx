@@ -2,8 +2,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Navbar.jsx';
-import Footer from './Footer.jsx'
-
+import Footer from './Footer.jsx';
+import Services from './Services.jsx';
+import Contact from './Contact.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -52,42 +53,6 @@ function Home() {
   );
 }
 
-function Services() {
-  const services = [
-    {
-      src: "/qsc-k12.jpeg",
-      caption: "QSC K12.2 speakers 2000W with stands (has Bluetooth)"
-    },
-    {
-      src: "/qsc-k10.jpeg",
-      caption: "QSC K10.2 speakers 2000W with stands (has Bluetooth)"
-    },
-    {
-      src: "yamaha10.jpeg",
-      caption: "Yamaha 10 channel mixer"
-    },
-    {
-      src: "yamaha16.jpeg",
-      caption: "Yamaha 16 channel mixer"
-    },
-    {
-      src: "mic.jpeg",
-      caption: "Shure SM58 wireless mics"
-    }
-  ]
-  return( <div><h1>View our available equipment</h1>
-   <div className="gallery-grid">
-        {services.map((service, index) => (
-          <div key={index} className="gallery-item">
-            <img src={service.src} alt={service.caption} />
-            <p className="caption">{service.caption}</p>
-          </div>
-        ))}
-      </div>
-    <Footer></Footer>
-    </div>
-  )
-}
 
 function PastEvents() {
   return <div><h1>Past Events</h1>
@@ -95,10 +60,5 @@ function PastEvents() {
   </div>;
 }
 
-function Contact() {
-  return <div><h1>Contact Us</h1>
-  <Footer></Footer>
-  </div>;
-}
 
 export default App
