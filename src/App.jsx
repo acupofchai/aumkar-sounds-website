@@ -34,13 +34,10 @@ function Home() {
       <section className="about">
         <h2>About us</h2>
         <div className="about-flex">
-        <img src="/rajshenoy.jpg" alt="About Aumkar Sounds" className="about-image" />
+        <img src="/sound waves.jpg" alt="About Aumkar Sounds" className="about-image" />
         <div className="about-content">
           <p>Aumkar sounds is a family owned audio and speaker rental business
-            based in the Greater Houston area. The business is owned and 
-            operated by Raghavendra Shenoy, who has always had a passion
-            for everything related to sound and audio technology. A music lover,
-            Raghavendra plays the tabla, a classical Indian drum. At
+            based in the Greater Houston area. At
             Aumkar Sounds, we recognize the importance of music and sounds
             to the success of an event. Speakers have the power to bring 
             people together, and Aumkar Sounds is committed to bringing any
