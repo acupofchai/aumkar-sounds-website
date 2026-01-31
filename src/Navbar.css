@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+  position: fixed;      /* Add this */
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;         /* Use viewport width */
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1000;       
+  
+}
+
+.navbar-links {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.navbar a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #555555;
+}
