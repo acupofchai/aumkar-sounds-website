@@ -53,15 +53,21 @@ function Home() {
 }
 
 function Services() {
-  return <div><h1>View our available equipment</h1></div>
+  return <div><h1>View our available equipment</h1>
+  <Footer></Footer>
+  </div>
 }
 
 function PastEvents() {
-  return <div><h1>Past Events</h1></div>;
+  return <div><h1>Past Events</h1>
+  <Footer></Footer>
+  </div>;
 }
 
 function Contact() {
-  return <div><h1>Contact Us</h1></div>;
+  return <div><h1>Contact Us</h1>
+  <Footer></Footer>
+  </div>;
 }
 
 export default App
