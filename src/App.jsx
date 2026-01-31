@@ -34,7 +34,7 @@ function Home() {
       <section className="about">
         <h2>About us</h2>
         <div className="about-flex">
-        <img src="src\rajshenoy.jpg" alt="About Aumkar Sounds" className="about-image" />
+        <img src="/rajshenoy.jpg" alt="About Aumkar Sounds" className="about-image" />
         <div className="about-content">
           <p>Aumkar sounds is a family owned audio and speaker rental business
             based in the Greater Houston area. The business is owned and 
