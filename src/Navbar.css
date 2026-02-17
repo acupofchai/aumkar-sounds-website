@@ -22,10 +22,22 @@
     align-items: center;
 }
 
+.navbar-links a {
+  display: flex;
+  align-items: center;  /* Fixes vertical alignment */
+  gap: 0.5rem;          /* Adds space between icon and text */
+}
+
 .navbar a {
   color: #000000;
   text-decoration: none;
   font-size: 1.2rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;  /* Fixes vertical alignment */
+  gap: 0.5rem;          /* Adds space between icon and text */
 }
 
 .navbar a:hover {

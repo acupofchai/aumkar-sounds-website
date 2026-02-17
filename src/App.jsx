@@ -28,8 +28,7 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <h1>Aumkar Sounds</h1>
-        <h2>For all your audio needs.</h2>
-        <h2>Professional speaker rentals and setup</h2>
+        <h2>Professional sound rentals and setup for all your audio needs.</h2>
       </section>
       {/* About us*/}
       <section className="about">

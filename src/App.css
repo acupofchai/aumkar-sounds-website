@@ -9,12 +9,12 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+  overflow-x: hidden; 
   width: 100%;
 }
 
 * {
-  box-sizing: border-box; /* Ensures padding doesn't add to width */
+  box-sizing: border-box; 
 }
 
 .logo {
@@ -31,21 +31,18 @@ body {
 }
 
 .hero {
-  min-height: 100vh; /* Takes full screen height */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: center;
-  background-size: cover;
-  background-position: center;
+  background-size:cover;
+  background-position: 30% center;
   background-image: url('/music.png');
-  background-size: cover;
-  background-position: center;
   position: relative;
   padding: 9rem 4rem;           
-  min-height: 100vh;
-  margin-bottom: 7rem;
+  margin-bottom: 8rem;
 }
 
 .hero h1 {
@@ -56,6 +53,11 @@ body {
 .hero h2 {
   font-size: 1.5rem;
   font-weight: 300;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .about {
@@ -71,7 +73,7 @@ body {
 .about h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .about p {
