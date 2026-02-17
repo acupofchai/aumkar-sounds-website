@@ -1,4 +1,5 @@
 import './Footer.css';
+import { FaFacebookSquare, FaInstagram  } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -22,8 +23,8 @@ function Footer() {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-links">
-            <a href="https://www.facebook.com/people/Aumkar-Sounds/61559258110606/" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://www.instagram.com/aumkarsounds/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/people/Aumkar-Sounds/61559258110606/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare/>Facebook</a>
+            <a href="https://www.instagram.com/aumkarsounds/" target="_blank" rel="noopener noreferrer"><FaInstagram/>Instagram</a>
           </div>
         </div>
       </div>
