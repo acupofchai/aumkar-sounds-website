@@ -23,24 +23,25 @@
 
 .contact-form {
   max-width: 800px;
-  margin: 0 auto;  /* centers it */
+  margin: 0 auto;  
   background: #edad81;
-  padding: 3rem;  /* More padding inside */
-  transform: scale(1.2);  /* Makes everything 20% bigger */
+  padding: 3rem;  
+  transform: scale(1.2);  
+  margin-bottom: 5rem;
 }
 
 .form-group input,
 .form-group textarea {
-  padding: 1.5rem;  /* Increase padding */
+  padding: 1.5rem;  
   font-family: 'Merriweather', sans-serif;
   width: 80%;
 }
 
 .form-group {
-  margin-bottom: 0.75rem;  /* Space between each form field */
+  margin-bottom: 0.75rem; 
 }
 
 .form-group label {
-  margin-bottom: 1rem;  /* Space between label and input */
+  margin-bottom: 1rem;
   display: block;
 }
