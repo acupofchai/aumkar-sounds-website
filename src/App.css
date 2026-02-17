@@ -34,11 +34,18 @@ body {
   min-height: 100vh; /* Takes full screen height */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   text-align: center;
   background-size: cover;
   background-position: center;
+  background-image: url('/music.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 9rem 4rem;           
+  min-height: 100vh;
+  margin-bottom: 7rem;
 }
 
 .hero h1 {
@@ -53,7 +60,7 @@ body {
 
 .about {
   padding: 4rem 2rem;
-  background-color: #ffffff;
+  background-color: #fff1e6;
   color: #000000;
   width: 100%;
   margin: 0;

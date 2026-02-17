@@ -3,13 +3,13 @@
   justify-content: space-around;
   padding: 1.5rem;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff1e6;
   color: #000000;
-  position: fixed;      /* Add this */
+  position: fixed;      
   top: 0;
   left: 0;
   right: 0;
-  width: 100vw;         /* Use viewport width */
+  width: 100vw;         
   margin: 0;
   box-sizing: border-box;
   z-index: 1000;       
