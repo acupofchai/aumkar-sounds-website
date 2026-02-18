@@ -42,7 +42,7 @@ body {
   background-image: url('/music.png');
   position: relative;
   padding: 9rem 4rem;           
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .hero h1 {
@@ -68,6 +68,7 @@ body {
   margin: 0;
   gap: 3rem;
   align-items: center;
+  margin-bottom: 8rem;
 }
 
 .about h2 {
@@ -89,14 +90,6 @@ body {
   align-items: center;
   gap: 3rem;
   justify-content: center;
-}
-
-.about-image {
-  display: flex;
-  width: 40%;
-  height: auto;
-  border-radius: 10px;
-  flex-shrink: 0;
 }
 
 @keyframes logo-spin {

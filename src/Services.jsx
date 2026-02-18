@@ -22,6 +22,10 @@ function Services() {
     {
       src: "mic.jpeg",
       caption: "Shure SM58 wireless mics"
+    },
+    {
+      src: "subwoofer.jpeg",
+      caption: "QSC KS112 subwoofers 2,000 watts each"
     }
   ]
   return( <div>

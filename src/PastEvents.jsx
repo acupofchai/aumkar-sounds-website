@@ -8,7 +8,7 @@ function PastEvents() {
     <div className="past-events">
         <section className="header">
         <h1>Past Events</h1>
-        <h2>View some of our past events here! From markets to birthday parties and weddings, Aumkar can do it all!</h2>
+        <h2>View some of our past events here. From markets to birthday parties and weddings, Aumkar can do it all!</h2>
       </section>
       <div className="instagram-grid">
         <InstagramEmbed 
@@ -24,7 +24,7 @@ function PastEvents() {
             width={328}
         />
         <InstagramEmbed
-            url="https://www.instagram.com/p/DENdbflPGRq/"
+            url="https://www.instagram.com/p/DQ216AAjURs/"
             width={328}
         />
         <InstagramEmbed
@@ -32,7 +32,7 @@ function PastEvents() {
             width={328}
         />
         <InstagramEmbed
-            url="https://www.instagram.com/p/DEQXXbdSrbm/"
+            url="https://www.instagram.com/p/DNhHqmZNe21/"
             width={328}
         />
       </div>
