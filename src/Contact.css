@@ -31,13 +31,14 @@
 
 .form-group input,
 .form-group textarea {
-  padding: 1.5rem;  
+  padding: 2rem;  
   font-family: 'Merriweather', sans-serif;
-  width: 80%;
+  width: 70%;
 }
 
 .form-group {
-  margin-bottom: 0.75rem; 
+  margin-bottom: 1.5rem; 
+  margin-top: 1rem;
 }
 
 .form-group label {

@@ -14,8 +14,8 @@ function Contact() {
         </div>
         
         <div className="form-group">
-          <label>Email</label>
-          <input type="email" placeholder="youremail@example.com" />
+          <label>Zip Code (Greater Houston area ONLY)</label>
+          <input type="zipcode" placeholder="12345" />
         </div>
         
         <div className="form-group">
