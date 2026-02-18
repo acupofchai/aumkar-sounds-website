@@ -17,14 +17,13 @@
 }
 
 .header h2 {
-    font-size: 1.5rem;
-    font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .contact-form {
   max-width: 800px;
   margin: 0 auto;  
-  background: #edad81;
   padding: 3rem;  
   transform: scale(1.2);  
   margin-bottom: 5rem;

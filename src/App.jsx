@@ -1,16 +1,30 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import Services from './Services.jsx';
 import Contact from './Contact.jsx';
+import PastEvents from './PastEvents.jsx';
+import { useEffect } from 'react';
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -50,13 +64,6 @@ function Home() {
       <Footer></Footer>
     </div>
   );
-}
-
-
-function PastEvents() {
-  return <div><h1>Past Events</h1>
-  <Footer></Footer>
-  </div>;
 }
 
 
