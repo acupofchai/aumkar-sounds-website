@@ -10,7 +10,7 @@ function Contact() {
       </section>
       
       <form 
-        action="https://formspree.io/f/YOUR_FORM_ID" 
+        action="https://formspree.io/f/mqeddrky" 
         method="POST"
         className="contact-form"
       >
