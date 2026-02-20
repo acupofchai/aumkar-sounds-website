@@ -45,3 +45,12 @@
   margin-bottom: 1rem;
   display: block;
 }
+
+.contact-form button {
+  border: 0.75px solid black;
+}
+
+.contact-form button:hover {
+  background-color: #e0dcdc;
+  border-color: #000;
+}
