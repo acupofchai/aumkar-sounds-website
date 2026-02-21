@@ -61,19 +61,6 @@ function Home() {
         </div>
         </div>
       </section>
-
-      <section className="servinghouston">
-        <h2>Serving Greater Houston</h2>
-        <div className="serving-flex">
-        {/* <img src="/sound waves.jpg" alt="About Aumkar Sounds" className="about-image" /> */}
-        <div className="serving-content">
-          <p>Aumkar sounds is based in the Sugar Land area and will deliver and setup equipment across Houston. 
-            Some serviced areas include Sugar Land, Pearland, Katy, Texas City, Downtown Houston, Stafford,
-            Missouri City, and more.
-          </p>
-        </div>
-        </div>
-      </section>
       <Footer></Footer>
     </div>
   );

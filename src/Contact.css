@@ -54,3 +54,26 @@
   background-color: #e0dcdc;
   border-color: #000;
 }
+
+@media (max-width: 768px) {
+  .header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.header h1 {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+}
+.header h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: 80%;
+}
+
+}

@@ -36,3 +36,23 @@
   transform: translateY(-10px); 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
 }
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+.gallery-item img {
+  object-fit: cover;  
+  height:auto;
+  width:100%;
+}
+}
